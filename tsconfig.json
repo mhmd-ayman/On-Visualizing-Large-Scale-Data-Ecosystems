@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": false ,
+    "strict": true,
+    "target": "es5",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "dom.iterable"],
+    "jsx": "react-jsx",
+
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    //"noEmit": true,
+
+  },
+  "ts-node": {
+    "files": true
+  }
+}
